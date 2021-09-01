@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="35dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/randomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="item"
+        android:textColor="#404040"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@android:drawable/ic_delete"
+        android:background="#FDFDFD"
+        android:text="add" />
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/randomText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:minWidth="30dp"
+        android:layout_weight="0.8"
+        tools:text="item" />
+
+    <ImageButton
+        android:id="@+id/simpleImageButton"
+        android:layout_width="wrap_content"
+        android:background="#F9F9FB"
+        android:layout_weight="0.2"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete" />
+
+</LinearLayout>-->
